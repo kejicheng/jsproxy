@@ -26,10 +26,9 @@ jsproxy_config({
       ]
     },
     'vulrt-tk': {
-      label: 'vultr-东京',
+      label: 'Vultr-东京',
       lines: [
-        // 多条线路，负载均衡系统会从其中选一条
-        ':8443',
+        'finalspeed.cn:8443',
       ]
     },
     'cfworker': {
