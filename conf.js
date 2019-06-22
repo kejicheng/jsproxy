@@ -25,6 +25,13 @@ jsproxy_config({
         'node-bwh-la.etherdream.com:8443'
       ]
     },
+    'vulrt-tk': {
+      label: 'vultr-东京',
+      lines: [
+        // 多条线路，负载均衡系统会从其中选一条
+        ':8443',
+      ]
+    },
     'cfworker': {
       label: 'Cloudflare Worker',
       hidden: true,
